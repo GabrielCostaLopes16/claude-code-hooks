@@ -145,10 +145,19 @@ See the [official Claude Code hooks documentation](https://docs.anthropic.com/en
 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 **Ideas for new hooks:**
-- Auto-format code after Write/Edit
-- Discord/Telegram notifications
-- Rate limiting tool calls
-- Context injection on SessionStart
+
+| Hook | Event | Description |
+|------|-------|-------------|
+| `protect-tests` | PreToolUse | Block test deletion/disabling |
+| `auto-format` | PostToolUse | Run prettier/black/gofmt after edits |
+| `branch-guard` | PreToolUse | Block changes on main/master branch |
+| `context-snapshot` | PreCompact | Preserve context before compaction |
+| `session-summary` | Stop | Generate summary on session end |
+| `ntfy-notify` | Notification | Free mobile push via [ntfy.sh](https://ntfy.sh) |
+| `discord-notify` | Notification | Discord webhook alerts |
+| `cost-tracker` | PostToolUse | Track token usage and estimate costs |
+| `tts-alerts` | Notification | Voice notifications via say/espeak |
+| `rules-injector` | UserPromptSubmit | Auto-inject CLAUDE.md rules |
 
 ---
 
