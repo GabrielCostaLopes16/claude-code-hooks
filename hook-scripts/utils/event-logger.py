@@ -6,7 +6,7 @@ When building custom hooks, it helps to see exactly what data Claude Code
 provides for each event. This utility logs all hook events so you can inspect
 payload structures and discover available fields before writing your own hooks.
 
-Output: ~/.claude/hook-logs/YYYY-MM-DD.jsonl
+Output: ~/.claude/hooks-logs/YYYY-MM-DD.jsonl
 
 Setup in .claude/settings.json (add to any/all events you want to inspect):
 {
@@ -23,9 +23,9 @@ All 13 supported events:
   Stop, PreCompact, Setup, Notification
 
 View logs:
-  cat ~/.claude/hook-logs/$(date +%Y-%m-%d).jsonl | jq
-  tail -f ~/.claude/hook-logs/$(date +%Y-%m-%d).jsonl | jq
-  cat ~/.claude/hook-logs/*.jsonl | jq 'select(.hook_event_name=="PreToolUse")'
+  cat ~/.claude/hooks-logs/$(date +%Y-%m-%d).jsonl | jq
+  tail -f ~/.claude/hooks-logs/$(date +%Y-%m-%d).jsonl | jq
+  cat ~/.claude/hooks-logs/*.jsonl | jq 'select(.hook_event_name=="PreToolUse")'
 """
 
 import sys
@@ -36,7 +36,7 @@ from pathlib import Path
 
 
 def get_log_file_path():
-    log_dir = Path.home() / ".claude" / "hook-logs"
+    log_dir = Path.home() / ".claude" / "hooks-logs"
     log_dir.mkdir(parents=True, exist_ok=True)
     return log_dir / f"{datetime.now().strftime('%Y-%m-%d')}.jsonl"
 
