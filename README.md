@@ -47,6 +47,16 @@ Fires when Claude needs user attention.
 |------|---------|-------------|
 | [notify-permission](hook-scripts/notification/notify-permission.js) | `permission_prompt\|idle_prompt` | Sends Slack alerts when Claude needs input |
 
+### Utils
+
+Tools to help you build and debug hooks.
+
+| Tool | Language | Description |
+|------|----------|-------------|
+| [event-logger](hook-scripts/utils/event-logger.py) | Python | Logs all hook events to inspect payload structures |
+
+> 💡 **Building a new hook?** Use `event-logger.py` to discover what data Claude Code provides for each event before writing your own hooks.
+
 ---
 
 ## 🚀 Quick Start
