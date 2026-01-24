@@ -1,0 +1,19 @@
+{
+  "name": "claude-code-hooks",
+  "version": "1.0.0",
+  "description": "Production-ready hooks for Claude Code — safety, automation, notifications, and more",
+  "scripts": {
+    "test": "node --test hook-scripts/tests/**/*.test.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "hooks",
+    "safety",
+    "security"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
