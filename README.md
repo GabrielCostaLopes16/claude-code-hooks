@@ -158,6 +158,8 @@ Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 | `cost-tracker` | PostToolUse | Track token usage and estimate costs |
 | `tts-alerts` | Notification | Voice notifications via say/espeak |
 | `rules-injector` | UserPromptSubmit | Auto-inject CLAUDE.md rules |
+| `rate-limiter` | PreToolUse | Limit tool calls per minute |
+| `context-injector` | SessionStart | Inject project context on session start |
 
 ---
 
