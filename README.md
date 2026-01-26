@@ -1,10 +1,17 @@
 # claude-code-hooks
 
-🪝 Production-ready hooks for Claude Code — safety, automation, notifications, and more.
+🪝 Ready-to-use hooks for Claude Code — safety, automation, notifications, and more.
 
 [![GitHub stars](https://img.shields.io/github/stars/karanb192/claude-code-hooks?style=social)](https://github.com/karanb192/claude-code-hooks)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Tests](https://img.shields.io/badge/tests-262%20passing-brightgreen)](hook-scripts/tests)
+
+### 🎬 Quick Demo
+
+<p align="center">
+  <img src="assets/block-secrets.png" alt="Hook blocking .env read" width="420">&nbsp;&nbsp;&nbsp;
+  <img src="assets/block-dangerous-commands.png" alt="Hook blocking dangerous commands" width="420">
+</p>
 
 A growing collection of tested, documented hooks you can copy, paste, and customize.
 
